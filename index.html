@@ -76,6 +76,8 @@
             margin: 40px 0 0 0;
         }
 
+
+
         @media screen and (min-width: 768px) and (max-width: 1023px) {
             article>figure {
                 width: 678px;
@@ -299,6 +301,7 @@
             }
         }
 
+
         @media screen and (min-width: 768px) {
             table.hidden-on-mobile {
                 display: table;
@@ -311,51 +314,196 @@
                 display: none;
             }
 
+
+        }
+
+        @media screen and (min-width: 500px) {
+            table.hidden-on-mobile {
+                display: table;
+                max-width: 770px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            table.shown-on-mobile {
+                display: none;
+            }
             .position-relative-top-left {
-                position: relative;
-                top: 350px;
-                left: 150px;
+                position: absolute;
+                top: 20%;
+                left: 20%;
             }
 
 
+            .position-relative-top {
+                position: relative;
+                top: 0px;
+            }
 
+        }
+
+        @media screen and (max-width:500px) {
+
+            .position-relative-top-left {
+                position: absolute;
+                top: 20%;
+                left: 18%;
+            }
+
+            .size {
+                font-size: 20px;
+
+            }
+            .opacity {
+                opacity: 0.6;
+            }
+
+            .position-relative-top {
+                position: relative;
+                top: 0px;
+
+            }
+
+
+        }
+
+
+        @media screen and (max-width:768px) {
+            .header-logobox {
+                padding-bottom: 45%;
+                position: relative;
+                margin-bottom: 55 px;
+            }
+            .liver-logo {
+                position: absolute;
+                left: 32%;
+                width: 35%;
+            }
+            .line {
+                position: absolute;
+                left: 0%;
+                top: 95%;
+                width: 100%;
+                height: 1%
+            }
+            .law {
+                position: absolute;
+                left: 15%;
+                top: 96%;
+                width: 18%;
+            }
+            .economics {
+                position: absolute;
+                left: 40.5%;
+                top: 96%;
+                width: 18%;
+            }
+            .education {
+                position: absolute;
+                left: 65.5%;
+                top: 96%;
+                width: 18%;
+            }
+            .fb {
+                position: absolute;
+                right: 8%;
+                top: 7%;
+                width: 6%;
+            }
+            .ig {
+                position: absolute;
+                right: 0%;
+                top: 7%;
+                width: 6%;
+            }
+
+        }
+
+
+        @media screen and (min-width: 768px) {
+            .header-logobox {
+                padding-bottom: 20%;
+                position: relative;
+            }
+            .liver-logo {
+                position: absolute;
+                left: 0;
+                width: 20%
+            }
+            .line {
+                position: absolute;
+                right: 0%;
+                top: 35%;
+                width: 75%;
+                height: 1%
+            }
+            .law {
+                position: absolute;
+                left: 35%;
+                top: 36%;
+                width: 15%;
+            }
+            .economics {
+                position: absolute;
+                left: 55%;
+                top: 36%;
+                width: 15%;
+            }
+            .education {
+                position: absolute;
+                left: 75%;
+                top: 36%;
+                width: 15%;
+            }
+            .fb {
+                position: absolute;
+                right: 4%;
+                top: 2%;
+                width: 3%;
+            }
+            .ig {
+                position: absolute;
+                right: 0%;
+                top: 2%;
+                width: 3%;
+            }
         }
     </style>
 
 </head>
 
 <body>
-    <header class="header">
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <div class="logo"></div>
-                    </td>
-                    <td style="width:22px;">
-                        <div class="menu"></div>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+    <header>
+        <div class="header-logobox" style="margin-bottom: 50px">
+            <figure>
+                <img src="logo.png" alt="logo" class="liver-logo">
+                <img src="分隔線.png" alt="line" class="line">
+                <img src="司法人權.png" alt="law" class="law">
+                <img src="產業經濟.png" alt="economics" class="economics">
+                <img src="教育文化.png" alt="education" class="education">
+                <img src="fb.png" alt="fb" class="fb">
+                <img src="ig.png" alt="ig" class="ig">
+            </figure>
+        </div>
     </header>
     <article>
+        <figure class="position-relative-top">
+            <img src="123-01.jpg" alt="img1-01 image of this article" width="100%" class="opacity"/>
 
-        <header>
-            <div class="position-relative-top-left">
-                <span>xxx產業?</span>
-                <h1>夾娃娃機店的今生未來</h1>
-                <h1>是突圍還是泡沫？</h1>
+
+            <div class="position-relative-top-left ">
+                <h1 class="size">夾娃娃機店的今生未來</h1>
+                <h1 class="size">是突圍還是泡沫？</h1>
                 <div style="margin-bottom:10px">
                     <span class="author">圖、文／
                         <b>
-                            <a href="https://www.facebook.com/profile.php?id=100001344265700" target="_blank">張玟榕、</a>
+                            <a href="https://www.facebook.com/profile.php?id=100001344265700" target="_blank">張玟榕</a>、
                         </b>
                         <b>
-                            <a href="https://www.facebook.com/profile.php?id=100000782258940" target="_blank">李昶毅、</a>
+                            <a href="https://www.facebook.com/profile.php?id=100000782258940" target="_blank">李昶毅</a>、
                         </b>
                         <b>
-                            <a href="https://www.facebook.com/profile.php?id=100002617298606" target="_blank">毛凱恩、</a>
+                            <a href="https://www.facebook.com/profile.php?id=100002617298606" target="_blank">毛凱恩</a>、
                         </b>
                         <b>
                             <a href="https://www.facebook.com/profile.php?id=100002640666293" target="_blank">陳棟</a>
@@ -365,11 +513,8 @@
 
                 </div>
             </div>
-        </header>
-
-        <figure >
-            <img src="img1-01.jpg" alt="img1-01 image of this article" width="100%" />
         </figure>
+
 
         <p class="introduction"> 夾娃娃機店近期攻占多數精華地段，密集展店下迅速改變台灣街景，光是一中街短短50公尺就出現5家之多。究竟是多強大的誘因，讓這麼多人甘願冒著市場飽和的風險，紛紛投入這個產業？在迅速擴張的情形下，夾娃娃機店又具備怎樣的優勢，能避免成為下一個葡式蛋塔？
         </p>
@@ -378,7 +523,7 @@
         <p>同時夾娃娃機店銷售額也大幅成長，從每間每月的平均銷售額表可知，近兩年來夾娃娃業在快速擴張下，收入並沒有被稀釋，大致呈現成長的趨勢。
         </p>
         <figure>
-            <img src="img3-sale.jpg" alt="img3-sale image of this article" width="100%" />
+            <img src="img3-sale.JPG" alt="img3-sale image of this article" width="100%" />
         </figure>
 
         <h2>夾娃娃機的營運模式</h2>
@@ -386,8 +531,8 @@
             目前市面常見的夾娃娃機店，其實是由「台主」與「場主」兩種角色共同經營。場主選定營業地址後，負責裝潢、水電、購買機台等成本，並制定該店營業規範，將娃娃機台分租給多位台主，收取租金便是主要的獲利來源。台主負責經營機台，準備擺放於娃娃機內的貨品，以及調整夾取設定，顧客玩娃娃機投入的硬幣則全為台主的營收。
         </p>
         <figure>
-            <img src="IMG_8948.jpg" alt="夾娃娃機e" width="100%" />
-            <figcaption> 分租的方式大幅降低投資門檻，讓小資族爭相投入。圖／陳棟攝</figcaption>
+            <img src="123-01.jpg" alt="夾娃娃機" width="100%" />
+            <figcaption> 分租的方式大幅降低投資門檻，讓小資族爭相投入。圖／張玟榕攝</figcaption>
         </figure>
         <p>
             台主「罵丸」透露，他在嘉義共經營兩台夾娃娃機，每個月投入成本主要為租金及批貨費用，平均月收入約新台幣2萬5千元至3萬元，在扣除成本以後，淨賺近萬元，超乎自身期待。趙亮鈞也以他的友人為例，目前經營四個機台，每月都能穩定淨賺1萬7千元至1萬8千元。
@@ -438,7 +583,7 @@
         <p>
             然而現在不少夾娃娃機店為了降低成本，在機台放置仿冒品，甚至是將爪子、墊片調鬆，讓民眾無法順利夾取商品，甚至放置違法物品在裡頭蒙騙消費者，但現在僅能由警察取締，無法有效遏止類似情形發生。
         </p>
-        <div class="embed-box" style="padding-bottom:48%">
+        <div class="embed-box" style="padding-bottom:52%">
             <iframe frameborder="0" class="juxtapose" width="100%" height="100%" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=4abe8a74-76c4-11e8-b263-0edaf8f81e27"></iframe>
         </div>
         <figcaption>娃娃盜版問題氾濫，不少知名卡通人都遭仿冒，更嚴重損害消費者權益。若是迪士尼原廠授權娃娃附有雷射標籤吊牌，精緻度相較盜版品高出許多。圖／陳棟攝</figcaption>
@@ -473,14 +618,18 @@
 
         <div class="related-text" style="clear:both;margin-top: 20px;">延伸閱讀</div>
         <ul class="related-items">
-            <li class="related-item">
-                <img src="IMG_8923.jpg"></img>
-                <div>延伸閱讀一：</div>
-            </li>
-            <li class="related-item">
-                <img src="IMG_8923.jpg"></img>
-                <div>延伸閱讀二：</div>
-            </li>
+            <a href="http://www.unews.nccu.edu.tw/unews/%E8%B3%BD%E9%B4%BF/">
+                <li class="related-item">
+                    <img src="06.jpg"></img>
+                    <div>延伸閱讀一：在天空飛翔的鈔票　台灣賽鴿利益解密與合法化之路</div>
+                </li>
+            </a>
+            <a href="http://www.unews.nccu.edu.tw/unews/%E7%B4%85%E6%AF%AF%E5%89%8D%E7%9A%84%E5%B9%95%E5%BE%8C%E5%B7%A5%E4%BD%9C%E8%80%85%e3%80%80%E4%BF%83%E5%B9%B8%E7%A6%8F%E7%94%A2%E6%A5%AD%E5%86%8D%E5%8D%87%E7%B4%9A/">
+                <li class="related-item">
+                    <img src="05.jpg"></img>
+                    <div> 延伸閱讀二：紅毯前的幕後工作者　促幸福產業再升級</div>
+                </li>
+            </a>
         </ul>
 
     </article>
